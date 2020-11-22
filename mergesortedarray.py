@@ -1,17 +1,23 @@
 nums1=[1,2,3,0,0,0]
-n=3
-x=0
-y=0
 nums2=[2,5,6]
-  
-if n>0:
-    while x>=0 and x<len(nums1)-1 :
-        while y>=0 and y<len(nums2)-1:
-            if  nums2[x] <=nums1[y]:
-                nums1.pop(-1)
-                nums1.insert(x,nums2[y=])
-                nums2.pop(0)
-            
-        x=x+1
-        y=y+1              
-print(nums1)            
+
+index=5
+m,n=2,2
+
+print(n)
+
+while(index>0):
+
+   if(nums2[n]>=nums1[m] and n>0):
+    nums1[index]=nums2[n]
+    m=m-1
+    n=n-1
+    index=index-1
+   else:
+    nums1[index]=nums1[m]
+    m=m-1
+    index=index-1
+ 
+nums1.sort()   
+
+print(nums1)       

@@ -1,5 +1,2 @@
-a=[1,6,2,56,34]
-
-a.insert(1,4)
-
-print(a)
+arr=[0]
+print(0*2**arr[0])
